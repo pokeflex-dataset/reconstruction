@@ -27,8 +27,18 @@ contributions:
   enabling physics-based simulations.
 - **Benchmarks for Deformation Prediction**: Features benchmarks for real-time deformation prediction from diverse
   modalities.
+- 
+### Examples
 
+| **Action**   | **Foam Dice**                                                   | **Plush Dice**                     | **3D Printed Bunny**                                             | **Foam Cylinder**                                               | **Plush Octopus**                                                  |
+|--------------|-----------------------------------------------------------------|-------------------------------------|------------------------------------------------------------------|-----------------------------------------------------------------|--------------------------------------------------------------------|
+| **Poking**   | <img src="assets/dice_poking.gif" width="256" height="256" />   | <img src="assets/plush_dice_poking.gif" width="256" height="256" />       | <img src="assets/bunny_poking.gif" width="256" height="256" />   | <img src="assets/foam_poking.gif" width="256" height="256" />   | <img src="assets/octopus_poking.gif" width="256" height="256" />   |
+| **Dropping** | <img src="assets/dice_dropping.gif" width="256" height="256" /> | <img src="assets/plush_dice_dropping.gif" width="256" height="256" />       | <img src="assets/bunny_dropping.gif" width="256" height="256" /> | <img src="assets/foam_dropping.gif" width="256" height="256" /> | <img src="assets/octopus_dropping.gif" width="256" height="256" /> |
 
+### Objects
+<div>
+  <iframe src="assets/objects.pdf" width="100%" height="600px" style="border: none;"></iframe>
+</div>
 
 ---
 
