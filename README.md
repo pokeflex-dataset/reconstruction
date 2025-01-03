@@ -32,13 +32,11 @@ contributions:
 
 | **Action**   | **Foam Dice**                                                   | **Plush Dice**                     | **3D Printed Bunny**                                             | **Foam Cylinder**                                               | **Plush Octopus**                                                  |
 |--------------|-----------------------------------------------------------------|-------------------------------------|------------------------------------------------------------------|-----------------------------------------------------------------|--------------------------------------------------------------------|
-| **Poking**   | <img src="assets/dice_poking.gif" width="256" height="256" />   | <img src="assets/plush_dice_poking.gif" width="256" height="256" />       | <img src="assets/bunny_poking.gif" width="256" height="256" />   | <img src="assets/foam_poking.gif" width="256" height="256" />   | <img src="assets/octopus_poking.gif" width="256" height="256" />   |
-| **Dropping** | <img src="assets/dice_dropping.gif" width="256" height="256" /> | <img src="assets/plush_dice_dropping.gif" width="256" height="256" />       | <img src="assets/bunny_dropping.gif" width="256" height="256" /> | <img src="assets/foam_dropping.gif" width="256" height="256" /> | <img src="assets/octopus_dropping.gif" width="256" height="256" /> |
+| **Poking**   | <img src="assets/dice_poking.gif" style="max-width: 100%; height: auto;" />   | <img src="assets/plush_dice_poking.gif" style="max-width: 100%; height: auto;" />       | <img src="assets/bunny_poking.gif" style="max-width: 100%; height: auto;" />   | <img src="assets/foam_poking.gif" style="max-width: 100%; height: auto;" />   | <img src="assets/octopus_poking.gif" style="max-width: 100%; height: auto;" />   |
+| **Dropping** | <img src="assets/dice_dropping.gif" style="max-width: 100%; height: auto;" /> | <img src="assets/plush_dice_dropping.gif" style="max-width: 100%; height: auto;" />       | <img src="assets/bunny_dropping.gif" style="max-width: 100%; height: auto;" /> | <img src="assets/foam_dropping.gif" style="max-width: 100%; height: auto;" /> | <img src="assets/octopus_dropping.gif" style="max-width: 100%; height: auto;" /> |
 
 ### Objects
-<div>
-  <iframe src="assets/objects.pdf" width="100%" height="600px" style="border: none;"></iframe>
-</div>
+<img src="assets/objects.png" width="100%" />
 
 ---
 
