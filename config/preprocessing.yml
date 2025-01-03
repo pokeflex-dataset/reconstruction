@@ -1,0 +1,12 @@
+objects: [ "Dice" ]
+kinect_crop_size: [1024, 1024]
+volucam_crop_size: [512, 512]
+force_threshold: 3.0
+faces_mesh_simplified: 19000
+points_kinect_pcd: 5000
+points_dense_synthetic_pcd: 5000
+points_sparse_synthetic_pcd: 100
+data_path: "/home/pokingrobot/Record3/final"
+output_path: "data/processed"
+
+
