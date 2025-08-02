@@ -83,8 +83,10 @@ pip install trimesh pyvista meshio siren-pytorch open3d pyyaml numpy==1.26.4 tra
 ```
 
 ### 3. Get the data
+The dataset can be found [here.](https://pokeflex.ait.ethz.ch/)
 
-The dataset will be released soon.
+Supplementary material can be downloaded [here.](https://drive.google.com/drive/folders/17zndHnoIuzzQmDNInpVKo9l8nEVcs1pb?usp=sharing)
+
 
 ### 4. Preprocess the data for training
 
@@ -110,7 +112,7 @@ python3 main.py --modality <modality>
       author    = {Obrist, Jan and Zamora, Miguel and Zheng, Hehui and Hinchet, Ronan and Ozdemir, Firat and Zarate, Juan and Katzschmann, Robert K. and Coros, Stelian},
       title     = {PokeFlex: A Real-World Dataset of Deformable Objects for Robotics},
       journal   = {Under review},
-      year      = {2024}
+      year      = {2025}
       url       = {https://arxiv.org/pdf/2410.07688}
       }
 ```
