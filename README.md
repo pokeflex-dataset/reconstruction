@@ -105,6 +105,14 @@ python3 dataset/preprocess.py
 python3 main.py --modality <modality> 
 ```
 
+### 6. Testing
+1. Specify the paths to the processed dataset and pretrained weights in the configuration file [config/testing.yml](config/testing.yml).
+2. Run the evaluation with the following command. You can optionally include the --save_loss flag to save the evaluation metrics:
+
+```bash
+python3 test/evaluate.py --modality <modality> [--save_loss]
+```
+
 ## Citation
 
 ```bibtex
