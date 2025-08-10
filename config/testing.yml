@@ -1,0 +1,19 @@
+learning_rate: 0.0001
+weight_decay: 0.000005
+epochs: 200
+batch_size: 4
+pfd_weight: 1.0
+roi_weight: 0.5
+sequence_length: 5
+attention_feat_output_size: 64
+image_feat_output_size: 128
+cameras: ["0056"]
+pointcloud_feat_output_size: 256
+pointcloud_source: "synthetic_dense"
+attention_feat_output_size: 64
+force_feat_output_size: 32
+objects: [ "Dice" ]
+data_path: "/cluster/scratch/zhengh/pokeflex/datasets_validate"
+model_path: "/cluster/home/zhengh/reconstruction/pretrained_models_clean/dense_synthetic_pointclouds"
+
+
