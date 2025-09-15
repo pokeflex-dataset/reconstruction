@@ -314,10 +314,8 @@ def plot_loss(x_loss, y_loss, shots):
 
 def main(args, config):
     model_path = config['model_path']
-    shots = ["MemoryFoam", "Volleyball", "HalfSphere", "Bunny", "Pyramid", 
-             "Dice", "Moon", "Octopus", "PlushDice", "Turtle", "Fjadrar", 
-             "Cylinder", "Beanbag", "Heart", "Foam", "ToiletPaper", "Sponge", "Pizza"]
-    takes = [2, 4, 3, 1, 6, 3, 1, 6, 8, 3, 8, 7, 6, 14, 1, 1, 10, 13]
+    shots = ["FoamDice"]
+    takes = [3]
     paths = []
     for take, shot in zip(takes, shots):
         data_path = f"{config['data_path']}/{shot}/{shot}_T{take}"

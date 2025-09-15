@@ -226,6 +226,7 @@ def get_meshes(source_path, output_path, frames, num_faces_coarse):
     template_mesh = pv.read(template_mesh_path)
     num_faces = template_mesh.n_cells
     factor = num_faces_coarse / num_faces
+    
     if factor < 1:
         template_mesh.decimate_pro(
             reduction=1-factor,
@@ -233,7 +234,7 @@ def get_meshes(source_path, output_path, frames, num_faces_coarse):
             inplace=True
         )
     # decimated_mesh.clean(inplace=True)
-    pv.save_meshio(f"{output_path}/template_mesh/template_mesh.obj", template_mesh)
+    pv.save_meshio(f"{output_path}/template_mesh/mesh-f00001.obj", template_mesh)
 
     for frame in frames:
         mesh_path = f"{source_path}/meshes/mesh-f{frame:05d}.obj"
